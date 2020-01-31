@@ -1,0 +1,15 @@
+/* Pretty color rotation */
+
+* {
+  animation: hue 60s infinite linear;
+}
+
+@keyframes hue {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(-360deg);
+  }
+}
