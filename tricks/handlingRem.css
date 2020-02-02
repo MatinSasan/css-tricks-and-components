@@ -1,0 +1,6 @@
+/* to easily use rem measurement, it's best to set root font size to 10 */
+/* while default is 16px */
+
+html {
+  font-size: 10px;
+}
