@@ -6,6 +6,8 @@
   box-sizing: border-box;
 }
 
+/* do not forget to add cursor: none to only have modified cursor */
+
 body {
   font-family: 'Poppins', sans-serif;
   cursor: none;
@@ -39,6 +41,13 @@ h1 {
   position: relative;
   z-index: -3;
 }
+
+/* ===this is where magic happens=== */
+/* > transform-translate needed to keep it center */
+/* > transform-origin to keep its centerness by hovering */
+/* > transition property to only affect at those areas */
+/* > z-index to keep it back | pointer -events to be able to select  */
+/* > backdrop-filter: gives nice effect to the cursoer by hovering to a pic */
 
 .cursor {
   width: 3rem;
