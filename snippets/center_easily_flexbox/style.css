@@ -1,0 +1,12 @@
+.container {
+  background-color: black;
+  color: wheat;
+  display: flex;
+  padding: 50px;
+  width: 25%;
+}
+
+.box {
+  /* display:flex + margin: auto = magic! */
+  margin: auto;
+}
